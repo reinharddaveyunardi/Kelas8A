@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/pp-grup.png">
+		<meta content="width=device-width, initial-scale=1, max-scale=1">
+		<title>Thank You For Supporting This Website From Zero</title>
+		<link rel="stylesheet" href="css/thank-you.css">
+	</head>
+	<body>
+	<div class="all">
+		<div class="text-container">
+			<h1><br><span>thx udah<br>mau support<br>website kelas 8a!</span></h1>
+			<div class="animated-text">
+				<h2>melvin</h2>
+				<h2>annastasia</h2>
+				<h2>shandy</h2>
+				<h2>Terima kasih!</h2>
+				<h2>Thank you! </h2>
+				<h2>Xièxiè</h2>
+			</div>
+		</div>
+		<div class="animation-container">
+			<div class="burst">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		function createBurst(){
+			let animContainer = document.querySelector('.animation-container');
+			let burst = document.querySelector('.burst');
+
+			burst.style.top = Math.random() * 550 + 'px';
+			burst.style.left = Math.random() * 750 + 'px';
+
+			let burstClone = burst.cloneNode(true);
+			animContainer.appendChild(burstClone);
+
+			setTimeout(() => {
+				burstClone.remove();
+			}, 20000);
+		}
+		setInterval(createBurst, 2000);
+		</script>
+	</body>
+</html>
