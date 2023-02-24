@@ -15,13 +15,12 @@ body{
 	background: #2d312f;
 	overflow: hidden;
 }
+
 .text-container h1{
-	position: relative;
 	color: #fff;
 	font-size: 300px;
 	font-weight: 900;
 	text-align: center;
-	right: 100px;
 	line-height: 80px;
 }
 
