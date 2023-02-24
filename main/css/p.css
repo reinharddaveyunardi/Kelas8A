@@ -6,6 +6,19 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.popup-feedback{
+  position: relative;
+  float: right;
+  top: 70vh;
+}
+.feedback-p{
+  position: relative;
+  text-align: center;
+}
+.img-popup{
+  border-radius: 50%;
+  width: 90px;
+}
 .body{
   overflow: auto;
 }
@@ -15,7 +28,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background: #11101d;
+  background-color: #232946;
   z-index: 100;
   transition: all 0.5s ease;
 }
