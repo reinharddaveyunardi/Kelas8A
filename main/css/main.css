@@ -112,7 +112,7 @@ body {
 }
 .main-article_paragraph {
 	max-width: calc(var(--index) * 30);
-	font-size: calc(var(--index) * .9);
+	font-size: calc(var(--index) * 1.5);
 	margin-top: calc(var(--index) / 1.25);
 	transform: var(--main-article-transform);
 	transition: var(--transition);
