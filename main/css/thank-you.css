@@ -5,7 +5,10 @@
 	padding: 0;
 	font-family: "Poppins", sans-serif;
 }
-
+.all{
+	position: relative;
+	lef: 90px;
+	top: 40px;
 body{
 	height: 100vh;
 	display: flex;
