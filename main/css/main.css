@@ -103,7 +103,7 @@ body {
 }
 .main-article_header {
 	text-transform: uppercase;
-	font-size: calc(var(--index) * 1.8);
+	font-size: calc(var(--index) * 1.9);
 	letter-spacing: calc(var(--index) / 7.5);
 	transform: var(--main-article-transform);
 	transition: var(--transition);
@@ -125,7 +125,7 @@ body {
 .copy {
 	position: absolute;
 	bottom: calc(var(--index) * 2.5);
-	opacity: .45;
+	opacity: .75;
 	font-size: calc(var(--index) * .75);
 	letter-spacing: calc(var(--index) / 37.5);
 }
