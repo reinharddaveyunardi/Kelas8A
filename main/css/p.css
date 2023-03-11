@@ -36,6 +36,8 @@
   width: 78px;
 }
 .sidebar .logo-details{
+  position: relative;
+  left: 13px;
   height: 60px;
   width: 100%;
   display: flex;
@@ -51,6 +53,8 @@
   line-height: 50px;
 }
 .sidebar .logo-details .logo_name{
+  position: relative;
+  left: 15px;
   font-size: 22px;
   color: #fff;
   font-weight: 600;
