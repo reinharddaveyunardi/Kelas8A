@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Haloo!</title>
+        <link rel="stylesheet" type="text/css" href="css/welcome.css">
+    </head>
+    <body>
+        <h3>Scroll Kebawah!</h3>
+        <section>
+            <h2 class="innerText">Selamat Datang!</h2>
+        </section>
+        <div class="container">
+            <h2>Informasi</h2>
+            <p>Haloo, Website ini akan menyatukan kelas 8A, 8B, 8C!. Stay tuned yaaa!!!!</p>
+            <video src="images/background.mp4" width="500px" autoplay muted loop style="position: relative; top: 2vh; left: 2vh;"></video>
+        </div>
+        <script>
+            let section = document.querySelector('section');
+            window.addEventListener( 'scroll', function(){
+                let value = window.scrollY;
+                section.style.clipPath = "circle("+ value +"px at center center)" 
+            })
+        </script>
+    </body>
+</html>
