@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #196fa1;
+    background-color: #c96c36;
   }
   .card {
     width: 640px;
@@ -133,17 +133,17 @@
     margin-top: 30px;
     text-align: center;
     letter-spacing: 6px;
-    color: #000046;
+    color: #c96c36;
   }
   .inside h1 {
     font-size: 120px;
     line-height: 120px;
   }
   img{
-    width: 250px;
+    width: 220px;
     position: relative;
     top: 30px;
-    left: 30px;
+    left: 50px;
     border-radius: 50%;
     border: solid;
   }
