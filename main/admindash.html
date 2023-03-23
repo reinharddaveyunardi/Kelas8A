@@ -1,0 +1,340 @@
+<?php
+require 'function.php';
+
+$murid = query("SELECT * FROM murid");
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="css/admindash.css">
+	<title>Dashboard</title>
+</head>
+<body>
+	<section id="sidebar">
+		<a href="home.html" class="brand">
+			<span class="text" style="position: relative; left: 30px;">Hi Admin!</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section id="content">
+		<nav>
+			<a href="#" class="profile">
+				<img src="img/pp-grup.png">
+			</a>
+		</nav>
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<span class="text">
+						<h3>27.88K</h3>
+						<p>Request</p>
+					</span>
+				</li>
+				<li>
+					<span class="text">
+						<h3>3.8K</h3>
+						<p>Visits</p>
+					</span>
+				</li>
+				<li>
+					<span class="text">
+						<h3>5.8K</h3>
+						<p>Page Visit</p>
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Student</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Email</th>
+								<th>ID</th>
+								<th>Password</th>
+							</tr>
+						</thead>
+						<body>
+							<tr>
+								<td>
+									<img src="img/student/abygail.png" alt="">
+									<p>Abygail Priscilla Siahaan</p>
+								</td>
+								<td>abygail.siahaan@student.citraberkat.sch.id</td>
+								<td>1</td>
+								<td>2008-07-31</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/alykha.png" alt="">
+									<p>Alykha Nur Syahrazzad Quensa Aulia</p>
+								</td>
+								<td>alykha.aulia@student.citraberkat.sch.id</td>
+								<td>2</td>
+								<td>2008-11-14</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/tasia.png" alt="">
+									<p>Annastasia Gita Surgawi</p>
+								</td>
+								<td>annastasia.surgawi@student.citraberkat.sch.id</td>
+								<td>3</td>
+								<td>2009-03-14</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/archangel.png" alt="">
+									<p>Archangel Caitlyn Feliciana</p>
+								</td>
+								<td>archangel.feliciana@student.citraberkat.sch.id</td>
+								<td>4</td>
+								<td>2008-11-28</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/benedikta.png" alt="">
+									<p>Benedikta Nindya Tiur Dewantari</p>
+								</td>
+								<td>benedikta.dewantari@student.citraberkat.sch.id</td>
+								<td>5</td>
+								<td>2009-06-17</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/chaya.png" alt="">
+									<p>Chaya Rahmadhan Keyza Dwipa</p>
+								</td>
+								<td>chaya.dwipa@student.citraberkat.sch.id</td>
+								<td>6</td>
+								<td>2007-11-20</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/dp.png" alt="">
+									<p>Daniel Purnama</p>
+								</td>
+								<td>daniel.purnama@student.citraberkat.sch.id</td>
+								<td>7</td>
+								<td>2009-02-09</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/farrel.png" alt="">
+									<p>Farrel Abrianto</p>
+								</td>
+								<td>farrel.abrianto@student.citraberkat.sch.id</td>
+								<td>8</td>
+								<td>2009-01-20</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/fellice.png" alt="">
+									<p>Fellice Valery</p>
+								</td>
+								<td>fellice.valery@student.citraberkat.sch.id</td>
+								<td>9</td>
+								<td>2009-06-03</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/george.png" alt="">
+									<p>George Nggarang Baralea</p>
+								</td>
+								<td>george.baralea@student.citraberkat.sch.id</td>
+								<td>10</td>
+								<td>2008-08-11</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/glenn.png" alt="">
+									<p>Glenn Albert Tjandra</p>
+								</td>
+								<td>glenn.tjandra@student.citraberkat.sch.id</td>
+								<td>11</td>
+								<td>2008-07-23</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/jason.png" alt="">
+									<p>Jason Thio Wijaya</p>
+								</td>
+								<td>jason.wijaya@student.citraberkat.sch.id</td>
+								<td>12</td>
+								<td>2009-09-01</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/jeffray.png" alt="">
+									<p>Jeffray Nayton Londo</p>
+								</td>
+								<td>jeffray.londo@student.citraberkat.sch.id</td>
+								<td>13</td>
+								<td>2009-07-25</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/jeremy.png" alt="">
+									<p>Jeremy Mauretz</p>
+								</td>
+								<td>jeremy.mauretz@student.citraberkat.sch.id</td>
+								<td>14</td>
+								<td>2009-07-06</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/kalyca.png" alt="">
+									<p>Kalyca Caluella Adsella</p>
+								</td>
+								<td>kalyca.adsella@student.citraberkat.sch.id</td>
+								<td>15</td>
+								<td>2009-01-21</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/matthew.png" alt="">
+									<p>Matthew Lionel Raphael Siahaan</p>
+								</td>
+								<td>matthew.siahaan@student.citraberkat.sch.id</td>
+								<td>16</td>
+								<td>2009-07-28</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/melvin.png" alt="">
+									<p>Melvin Wilis Setia Putra</p>
+								</td>
+								<td>melvin.putra@student.citraberkat.sch.id</td>
+								<td>17</td>
+								<td>2009-05-22</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/moses.png" alt="">
+									<p>Moses Rury Saputra</p>
+								</td>
+								<td>moses.saputra@student.citraberkat.sch.id</td>
+								<td>18</td>
+								<td>2009-01-11</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/ghaisan.png" alt="">
+									<p>Muhamad Ghaisan Abrisam</p>
+								</td>
+								<td>muhamad.abrisam@student.citraberkat.sch.id</td>
+								<td>19</td>
+								<td>2008-11-11</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/nichie.png" alt="">
+									<p>Nichie Isabela Tan</p>
+								</td>
+								<td>nichie.tan@student.citraberkat.sch.id</td>
+								<td>20</td>
+								<td>2008-05-30</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/raffael.png" alt="">
+									<p>Raffael Luciano</p>
+								</td>
+								<td>raffael.luciano@student.citraberkat.sch.id</td>
+								<td>21</td>
+								<td>2008-10-07</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/raga.png" alt="">
+									<p>Raga Akalindra</p>
+								</td>
+								<td>raga.akalindra@student.citraberkat.sch.id</td>
+								<td>22</td>
+								<td>2009-04-25</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/reinhard.png" alt="">
+									<p>Reinhard Dave Yunardi</p>
+								</td>
+								<td>reinhard.yunardi@student.citraberkat.sch.id</td>
+								<td>23</td>
+								<td>2008-07-11</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/sekar.png" alt="">
+									<p>Sekar Biru Langit</p>
+								</td>
+								<td>sekar.langit@student.citraberkat.sch.id</td>
+								<td>24</td>
+								<td>2009-01-06</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/shandy.png" alt="">
+									<p>Shandy Gunawan</p>
+								</td>
+								<td>shandy.gunawan@student.citraberkat.sch.id</td>
+								<td>25</td>
+								<td>2009-03-26</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/student/pp-grup.png" alt="">
+									<p>admin</p>
+								</td>
+                                <td>admin</td>
+                                <td>28</td>
+                                <td>4dm1n</td>
+							</tr>
+						</body>
+					</table>
+				</div>
+			</div>
+		</main>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
