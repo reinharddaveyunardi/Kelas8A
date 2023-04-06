@@ -1,76 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="img/pp-grup.png">
-	<title>8A CLASSS!!!</title>
-	<link rel="stylesheet" href="css/main.css">
-
-	<script src="libs/gsap/gsap.min.js" defer></script>
-	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
-	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
-
-	<script src="js/app.js" defer></script>
-
+	<title>Paskah</title>
+	<script src="/main/js/gsap.min.js" defer></script>
+	<script src="/main/js/ScrollTrigger.min.js" defer></script>
+	<script src="/main/js/ScrollSmoother.min.js" defer></script>
+	<link rel="stylesheet" href="/main/css/paskah.css">
+	<script src="/main/js/app.js" defer></script>
 </head>
 <body>
-
 	<div class="wrapper">
 		<div class="content">
-
-			<header class="main-header">
-				<div class="layers">
-					<div class="layer_header">
-						<div class="layers_caption"></div>
-						<div class="layers_title">8A Class</div>
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="/main/img/Salib.png" alt="Alt" >
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">Selamat Hari Paskah!</h1>
 					</div>
-					<div class="layer layers_base" style="background-image: url(img/menu.jpeg);"></div>
-					<div class="layer layers_middle" style="background-image: url();"></div>
-					<div class="layer layers_front" style="background-image: url();"></div>
 				</div>
 			</header>
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+						<div data-speed=".9" class="gallery__left">
 		
-			<article class="main-article" style="background-image: url(img/menu-atas-foto.jpg);">
-				<div class="main-article_content">
-					<h2 class="main-article_header" style="color: var(--text);
-					text-shadow: 0 0 15px #f9bc60; ">Selamat Datang</h2>
-					<a href="home.html">
-						<button class="button">See More About 8A CLASSS!!
-							<style>
-								.button{
-									font-size: 0.4cm;
-									cursor: pointer;
-								    background-color: #f9bc60;
-									color: #001e1d;
-									border: transparent;
-									box-sizing: border-box;
-									padding: 10px;
-									border-radius: 5px;
-									transition: all 0.5s ease;
-									position: relative;
-									top: 10vh;
-									font-family: 'Courier New', Courier, monospace;
-									box-shadow: 0px 0px 0 ;
-								}
-								.button:hover{
-									background-color: #f9bc60;
-									border: none;
-									box-shadow: 8px 10px 0 black;
-								}
-							</style>
-						</button>
-					</a>
-					<p class="main-article_paragraph" style="color: var(--text);
-					text-shadow: 0 0 15px #f9bc60;">Di Media Sosial 8A!!</p>
+							<img class="gallery__item" src="/main/img/happy_easter.png" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Selamat Hari Paskah!</h2>
+								<p class="text-block__p"><q></q>Tuhan membuktikan kasih-Nya di kayu salib. Ketika Kristus disalib, dan berdarah, dan mati, itu adalah Tuhan yang berkata kepada dunia, 'Aku mengasihimu'." - Billy Graham</p>
+							</div>
+						</div>
+						<div data-speed="1.1" class="gallery__right">
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Happy Easter!</h2>
+								<p class="text-block__p">Saat kita merayakan <b>Paskah</b>, Semoga Kita Diingatkan Akan <b>Pengorbanan Yesus Kristus</b></b> Dan <b>Kasih</b> Yang Dia Miliki Bagi Kita. Semoga Paskah Ini Memberi Kita <b style="color: white;">Harapan</b>, <b>Cinta</b>, Dan <b>Kegembiraan</b> Yang Akan Bertahan <b>Selamanya</b>. Selamat Hari Paskah!</p>
+							</div>
+							<img class="gallery__item" src="/main/img/telur_kelinci_.png" alt="Alt">
+						</div>
+					</main>
 				</div>
-				<div class="copy">© 2022 8A Class. All Rights Reserved</div>
-			</article>
+			</div>
 
 		</div>
 	</div>
-
 </body>
 </html>
