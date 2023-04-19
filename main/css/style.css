@@ -3,7 +3,6 @@
   --bg: #000000;
   --teks: #000000;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -88,11 +87,14 @@ body{
 #menu{
     display: none;
 }
+
+/*Landing image*/
+
 .hero{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('/img/header-bg.jpg');
+    background-image: url('/main/img/header-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -140,17 +142,20 @@ body{
     border-radius: 0.5rem;
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
+
+/*Profile kelas*/
+
 .about{
     padding: 10rem 7% 1.4rem;
     font-family: 'Gloria Hallelujah', cursive;
 }
-.about h2, .student h2{
+.about h2, .homeroom h2{
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
     color: white;
 }
-.about h2 span, .student h2 span{
+.about h2 span, .homeroom h2 span{
     color: #f45d48;
 }
 .about .row{
@@ -185,10 +190,16 @@ body{
     color: #fff;
     margin-top: 5rem;
 }
-.student h2{
+/* Homeroom */
+
+.homeroom{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.homeroom h2{
     margin-bottom: 0rem;
 }
-.student p{
+.homeroom p{
     color: #fff;
     text-align: center;
     max-width: 30rem;
@@ -197,26 +208,28 @@ body{
     line-height: 1.6;
 
 }
-.student .row{
+.homeroom .row{
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center;
 }
-.student .row .student-profile{
+.homeroom .row .homeroom-profile{
     text-align: center;
     justify-content: space-between;
 }
-.student .row .student-profile img{
+.homeroom .row .homeroom-profile img{
     width: 80%;
     border-radius: 50%;
 }
-.student .row .student-profile .student-name{
+.homeroom .row .homeroom-profile .homeroom-name{
     margin-top: 1.5;
 }
-.student .row .student-profile .student-bio{
+.homeroom .row .homeroom-profile .homeroom-bio{
     margin: 1rem auto 0.5rem;
 }
+/*footer buat credit*/
+
 footer{
     background-color: #f45d48;
     text-align: center;
@@ -249,13 +262,19 @@ footer .credit a{
     color: #fff;
     font-weight: 700;
 }
+
+/* Agar website responsive di device yang lebih kecil! */
+
 /*Laptop*/
+
     @media (max-width: 1366px) {
         html{
             font-size: 75%;
         }
     }
+
 /*Tab*/
+
     @media (max-width: 800px){
         html{
             font-size: 62.5%;
@@ -306,7 +325,9 @@ footer .credit a{
             font-size: 1.6rem;
         }
     }
+
 /*Hp*/
+
     @media (max-width: 450px){
         html{
             font-size: 62.5%;
