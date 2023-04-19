@@ -5,7 +5,6 @@
 }
 
 * {
-    font-family: 'Poppins' sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +12,9 @@
     border: none;
     text-decoration: none;
 }
-
+p{
+    font-family: 'Rajdhani', sans-serif;
+}
 body{
     font-family: sans-serif;
     background-color: var(--bg);
@@ -42,6 +43,7 @@ body{
     font-weight: 400;
     color: #fff;
     font-style: italic;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .navbar .navbar-logo span{
@@ -54,6 +56,7 @@ body{
     font-size: 1.3rem;
     margin: 0 1rem;
     transition: 0.3s;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .navbar .navbar-nav a:hover{
@@ -108,6 +111,7 @@ body{
 .hero .content{
     padding: 1.4rem 7%;
     max-width: 60rem;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 .hero .content h1{
     font-size: 5em;
@@ -119,6 +123,7 @@ body{
     color: var(--utama);
 }
 .hero .content p{
+    font-family: 'Rajdhani', sans-serif;
     font-size: 1.6rem;
     margin-top: 1rem;
     line-height: 1.4;
@@ -137,6 +142,7 @@ body{
 }
 .about{
     padding: 10rem 7% 1.4rem;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 .about h2, .student h2{
     text-align: center;
