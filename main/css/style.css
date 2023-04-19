@@ -89,7 +89,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('/img/header-bg.jpg');
+    background-image: url('/main/img/header-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -265,7 +265,7 @@ footer .credit a{
             top: 100%;
             right: -100%;
             background-color: var(--utama);
-            width: 30rem;
+            width: 25rem;
             height: 100vh;
             border-left: 1px solid #f45d48;
             transition: 0.4s;
@@ -316,7 +316,7 @@ footer .credit a{
             top: 100%;
             right: -100%;
             background-color: var(--utama);
-            width: 30rem;
+            width: 20rem;
             height: 100vh;
             border-left: 1px solid #f45d48;
             transition: 0.4s;
