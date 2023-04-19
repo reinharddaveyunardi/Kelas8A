@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New UI Menu!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,700&display=swap" rel="stylesheet"/>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">8A<span>Class</span>.</a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#students">Student</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="cari" style="display: none;"><i data-feather="search"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Welcome To <span>8A Class</span></h1>
+        <p>Part Of SCB Jonggol.</p>
+        <a href="#" class="cta">More Information</a>
+      </main>
+    </section>
+    <section id="about" class="about">
+      <h2>About <span>8A </span>!</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="/public/img/goals.png" alt="Goals">
+        </div>
+        <div class="content">
+          <h3>Make <span style="color: #f45d48;">Positive</span> Vibes!</h3>
+          <p>Class 8a, the class that Ms. Maria was trusteering. A class that has the goal of "Positive Vibes Class" and wants to become the "Teacher's Favorite Class" which was determined on Wednesday, July 27, 2022. </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/eixtha_00/"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+        <a href="https://www.tiktok.com/@kelas8atiktok?is_from_webapp=1&sender_device=pc"><i data-feather="tiktok">Tiktok</i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#home">Students</a>
+        <a href="#home">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Copyright &copy; 2023 | Kelas 8A </p>
+      </div>
+    </footer>
+    <section id="students" class="student" style="display: none;">
+      <h2>8A <span>Students</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deleniti a voluptatem consequuntur sequi omnis labore consequatur quia nam fugiat?</p>
+        <div class="student-profile" style="display: none;">
+          <img src="" alt="Abgail" class="menu-card-img">
+          <h3 class="student-name">Abygail Priscilla Siahaan</h3>
+          <p class="student-bio">Apalohh..</p>
+        </div>
+      </div>
+    </section>
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
