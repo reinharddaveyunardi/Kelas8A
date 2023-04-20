@@ -183,6 +183,7 @@ body {
 
 .about .row .about-img {
   flex: 1 1 45rem;
+  
 }
 
 .about .row .about-img img {
@@ -201,16 +202,14 @@ body {
 
 .about .row .content p {
   margin-bottom: 0.8rem;
-  font-size: 1.3rem;
   font-weight: 100;
-  line-height: 1.6;
 }
 
 /* Menu Section */
 
-.menu h2,
+.menu h2, .about h2,
 .contact h2 {
-  margin-bottom: 1rem;
+  margin-top: 20rem;
 }
 .menu p,
 .contact p {
