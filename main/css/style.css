@@ -223,7 +223,7 @@
     padding-bottom: 4rem;
   }
   
-  .menu .row .menu-card img, video {
+  .menu .row .menu-card img {
     margin: 15px;
     border-radius: 50%;
     width: 200px;
