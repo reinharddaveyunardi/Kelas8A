@@ -15,7 +15,8 @@ img {
   transition: 0.3s;
 }
 img:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
+  box-shadow: rgba(255, 137, 6, 0.9) 10px 15px 10px;
 }
 html {
   scroll-behavior: smooth;
@@ -190,7 +191,7 @@ body {
 
 .about .row .content {
   flex: 1 1 35rem;
-  padding: 0 1rem;
+  padding: 0 5rem;
 }
 
 .about .row .content h3 {
@@ -206,6 +207,7 @@ body {
 }
 
 /* Menu Section */
+
 .menu h2,
 .contact h2 {
   margin-bottom: 1rem;
@@ -242,52 +244,8 @@ body {
   margin: 0.1rem;
 }
 
-/* Contact Section */
-.contact .row {
-  display: flex;
-  margin-top: 2rem;
-  background-color: #222;
-}
-
-.contact .row .map {
-  flex: 1 1 45rem;
-  width: 100%;
-  object-fit: cover;
-}
-
-.contact .row form {
-  flex: 1 1 45rem;
-  padding: 5rem 2rem;
-  text-align: center;
-}
-
-.contact .row form .input-group {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  background-color: var(--bg);
-  border: 1px solid #eee;
-  padding-left: 2rem;
-}
-
-.contact .row form .input-group input {
-  width: 100%;
-  padding: 2rem;
-  font-size: 1.7rem;
-  background: none;
-  color: #fff;
-}
-
-.contact .row form .btn {
-  margin-top: 3rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.7rem;
-  color: #fff;
-  background-color: var(--primary);
-  cursor: pointer;
-}
 /* Footer */
+
 footer {
   background-color: var(--primary);
   text-align: center;
