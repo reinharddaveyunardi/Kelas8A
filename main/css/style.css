@@ -22,6 +22,10 @@ html {
 }
 a{
   color: #fff;
+  transition: 0.2s;
+}
+a:hover{
+  color: var(--primary);
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -298,10 +302,12 @@ footer .socials {
 footer .socials a {
   color: #fff;
   margin: 1rem;
+  transition: 0.2s;
 
 }
 footer .socials a i{
   font-size: 1.8rem;
+  transition: 0.2s;
 }
 footer .socials a:hover,
 footer .links a:hover {
