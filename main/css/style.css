@@ -98,6 +98,7 @@ body {
 }
 
 /* Hero Section */
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -183,16 +184,16 @@ body {
 
 .about .row .about-img {
   flex: 1 1 45rem;
-  
 }
 
 .about .row .about-img img {
   width: 100%;
+  margin: 2rem;
 }
 
 .about .row .content {
   flex: 1 1 35rem;
-  padding: 0 5rem;
+  padding: 0 7rem;
 }
 
 .about .row .content h3 {
@@ -202,14 +203,15 @@ body {
 
 .about .row .content p {
   margin-bottom: 0.8rem;
+  font-size: 1.3rem;
   font-weight: 100;
+  line-height: 1.6;
 }
 
 /* Menu Section */
 
-.menu h2, .about h2,
-.contact h2 {
-  margin-top: 20rem;
+.menu h2{
+  margin-top: 5rem;
 }
 .menu p,
 .contact p {
@@ -342,7 +344,7 @@ footer .credit a {
   }
 
   .about .row .about-img img {
-    height: 24rem;
+    height: 34rem;
     object-fit: cover;
     object-position: center;
   }
