@@ -223,7 +223,7 @@
     padding-bottom: 4rem;
   }
   
-  .menu .row .menu-card img {
+  .menu .row .menu-card img, video {
     margin: 15px;
     border-radius: 50%;
     width: 200px;
@@ -371,7 +371,7 @@
       flex-wrap: wrap;
     }
   
-    .about .row .about-img img {
+    .about .row .about-img img, video {
       height: 24rem;
       object-fit: cover;
       object-position: center;
