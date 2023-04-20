@@ -140,8 +140,8 @@ body {
 
 .hero .content .cta {
   margin-top: 1rem;
-  display: inline-block;
   padding: 1rem 3rem;
+  display: inline-block;
   font-size: 1.4rem;
   color: #fff;
   background-color: #ff8906;
@@ -279,7 +279,6 @@ body {
   background-color: var(--primary);
   cursor: pointer;
 }
-
 /* Footer */
 footer {
   background-color: var(--primary);
@@ -295,8 +294,11 @@ footer .socials {
 footer .socials a {
   color: #fff;
   margin: 1rem;
-}
 
+}
+footer .socials a i{
+  font-size: 1.8rem;
+}
 footer .socials a:hover,
 footer .links a:hover {
   color: var(--bg);
@@ -343,7 +345,7 @@ footer .credit a {
     top: 100%;
     right: -100%;
     background-color: #fff;
-    width: 30rem;
+    width: 25rem;
     height: 100vh;
     transition: 0.3s;
   }
@@ -412,5 +414,14 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 20rem;
+    height: 100vh;
+    transition: 0.3s;
   }
 }
