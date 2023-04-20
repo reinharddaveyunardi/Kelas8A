@@ -310,7 +310,9 @@ footer .credit a {
   color: #fff;
   font-weight: 700;
 }
-
+iframe{
+    width: 420;
+}
 /* Agar website responsive di device yang lebih kecil! */
 
 /*Laptop*/
