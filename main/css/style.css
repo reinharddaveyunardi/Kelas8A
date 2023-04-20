@@ -4,378 +4,425 @@
   --teks: #000000;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
-p{
-    font-family: 'Rajdhani', sans-serif;
+p {
+  font-family: "Rajdhani", sans-serif;
 }
-body{
-    font-family: sans-serif;
-    background-color: var(--bg);
-    color: #fff;
-    min-height: 2000px;
+body {
+  font-family: sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+  min-height: 2000px;
 }
 
 /* nav */
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.4rem 7%;
-    background-color: rgba(244, 93, 72, 0.8);
-    border-bottom: 1px solid #f45d48;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99999;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(244, 93, 72, 0.8);
+  border-bottom: 1px solid #f45d48;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
 }
 
-.navbar .navbar-logo{
-    font-size: 2rem;
-    font-weight: 400;
-    color: #fff;
-    font-style: italic;
-    font-family: 'Gloria Hallelujah', cursive;
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  font-style: italic;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-.navbar .navbar-logo span{
-    color: var(--teks);
+.navbar .navbar-logo span {
+  color: var(--teks);
 }
 
-.navbar .navbar-nav a{
-    color: var(--teks);
-    display: inline-block;
-    font-size: 1.3rem;
-    margin: 0 1rem;
-    transition: 0.3s;
-    font-family: 'Gloria Hallelujah', cursive;
+.navbar .navbar-nav a {
+  color: var(--teks);
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+  transition: 0.3s;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-.navbar .navbar-nav a:hover{
-    color: #ffffff;
-    
+.navbar .navbar-nav a:hover {
+  color: #ffffff;
 }
-.navbar .navbar-nav a::after{
-    content: '';
-    display: block;
-    padding-bottom: 0.5rem;
-    border-bottom: 0.1rem solid var(--teks);
-    transform: scaleX(0);
-    transition: 0.2s linear;
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--teks);
+  transform: scaleX(0);
+  transition: 0.2s linear;
 }
-.navbar .navbar-nav a:hover::after{
-    transform: scaleX(0.5);
-}
-
-.navbar .navbar-extra a{
-    color: var(--teks);
-    margin: 0 0.5rem;
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
 }
 
-.navbar .navbar-extra a:hover{
-    color: #078080;
-    margin: 0 0.5rem;
+.navbar .navbar-extra a {
+  color: var(--teks);
+  margin: 0 0.5rem;
 }
 
-#menu{
-    display: none;
+.navbar .navbar-extra a:hover {
+  color: #078080;
+  margin: 0 0.5rem;
+}
+
+#menu {
+  display: none;
 }
 
 /*Landing image*/
 
-.hero{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background-image: url('/img/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.hero::after{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 30%;
-    bottom: 0;
-    background: linear-gradient(0deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0) 55%);
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0) 55%);
 }
-.hero .content{
-    padding: 1.4rem 7%;
-    max-width: 60rem;
-    font-family: 'Gloria Hallelujah', cursive;
+.hero .content {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+  font-family: "Gloria Hallelujah", cursive;
 }
-.hero .content h1{
-    font-size: 5em;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-    line-height: 1.2;
+.hero .content h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
 }
-.hero .content h1 span{
-    color: var(--utama);
+.hero .content h1 span {
+  color: var(--utama);
 }
-.hero .content p{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1.6rem;
-    margin-top: 1rem;
-    line-height: 1.4;
-    font-weight: 100;
-    color: #fff;
+.hero .content p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 100;
+  color: #fff;
 }
-.hero .content .cta{
-    margin-top: 1rem;
-    display: inline-block;
-    padding: 1rem 3rem;
-    font-size: 1.4rem;
-    color: #fff;
-    background-color: #f45d48;
-    border-radius: 0.5rem;
-    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #f45d48;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 /*Profile kelas*/
 
-.about{
-    padding: 10rem 7% 1.4rem;
-    font-family: 'Gloria Hallelujah', cursive;
+.about {
+  padding: 10rem 7% 1.4rem;
+  font-family: "Gloria Hallelujah", cursive;
 }
-.about h2, .homeroom h2{
-    text-align: center;
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
-    color: white;
+.about h2,
+.homeroom h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: white;
 }
-.about h2 span, .homeroom h2 span{
-    color: #f45d48;
+.about h2 span,
+.homeroom h2 span, .head h2 span {
+  color: #f45d48;
 }
-.about .row{
-    display: flex;
+.about .row {
+  display: flex;
 }
-.about .row .about-img{
-    flex: 1 1 45rem;
+.about .row .about-img {
+  flex: 1 1 45rem;
 }
-.about .row .about-img img{
-    width: 100%;
-    border-radius: 1.5rem;
-    transition: 0.4s;
+.about .row .about-img img {
+  width: 100%;
+  border-radius: 1.5rem;
+  transition: 0.4s;
 }
-.about .row .about-img img:hover{
-    transform: scale(0.9);
+.about .row .about-img img:hover {
+  transform: scale(0.9);
 }
-.about .row .content{
-    flex: 1 1 35rem;
-    padding: 0 1rem;
-    
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
 }
-.about .row .content h3{
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: #fff;
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
 }
-.about .row .content p{
-    margin-bottom: 0.8rem;
-    font-size: 1.3rem;
-    font-weight: 100;
-    line-height: 1.6;
-    color: #fff;
-    margin-top: 5rem;
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+  color: #fff;
+  margin-top: 5rem;
 }
 /* Homeroom */
 
-.homeroom{
-    text-align: center;
-    font-size: 1.6rem;
-    font-family: 'Gloria Hallelujah', cursive;
+.homeroom {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Gloria Hallelujah", cursive;
 }
-.homeroom h2{
-    margin-bottom: 0rem;
+.homeroom h2 {
+  margin-bottom: 0rem;
 }
-.homeroom p{
-    color: #fff;
-    text-align: center;
-    max-width: 30rem;
-    margin: auto;
-    font-weight: 100;
-    line-height: 1.6;
+.homeroom p {
+  color: #fff;
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.homeroom .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.homeroom .row .homeroom-profile {
+  text-align: center;
+  justify-content: space-between;
+}
+.homeroom .row .homeroom-profile img {
+  width: 80%;
+  border-radius: 50%;
+}
+.homeroom .row .homeroom-profile .homeroom-name {
+  margin-top: 1.5;
+}
+.homeroom .row .homeroom-profile .homeroom-bio {
+  margin: 1rem auto 0.5rem;
+}
 
+/* Ketua Kelas */
+
+.head {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Gloria Hallelujah", cursive;
 }
-.homeroom .row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5rem;
-    justify-content: center;
+.head h2 {
+  margin-bottom: 0rem;
 }
-.homeroom .row .homeroom-profile{
-    text-align: center;
-    justify-content: space-between;
+.head p {
+  color: #fff;
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
 }
-.homeroom .row .homeroom-profile img{
-    width: 80%;
+.head .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.head .row .head-profile {
+  text-align: center;
+  justify-content: space-between;
+}
+.head .row .head-profile img {
+  width: 80%;
+  border-radius: 50%;
+}
+.head .row .head-profile .head-name {
+  margin-top: 1.5;
+}
+.head .row .head-profile .head-bio {
+  margin: 1rem auto 0.5rem;
+}
+
+img{
     border-radius: 50%;
+    transition: 0.3s;
+    justify-content: center;
+    width: 200px;
 }
-.homeroom .row .homeroom-profile .homeroom-name{
-    margin-top: 1.5;
+img:hover{
+    transform: scale(0.9);
 }
-.homeroom .row .homeroom-profile .homeroom-bio{
-    margin: 1rem auto 0.5rem;
-}
+
 /*footer buat credit*/
 
-footer{
-    background-color: #f45d48;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 50rem;
-    bottom: 0;
+footer {
+  background-color: #f45d48;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 50rem;
+  bottom: 0;
 }
-footer .social{
-    padding: 1rem 0;
+footer .social {
+  padding: 1rem 0;
 }
-footer .social a{
-    color: #fff;
-    margin: 1rem;
+footer .social a {
+  color: #fff;
+  margin: 1rem;
 }
 footer .links {
-    margin-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
 }
-footer .links a:hover
-footer .social a:hover{
-    color: #000000;
+footer .links a:hover footer .social a:hover {
+  color: #000000;
 }
-footer .links a{
-    color: #fff;
-    padding: 0.7rem 1rem;
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
 }
-footer .credit{
-    font-size: 1rem;    
+footer .credit {
+  font-size: 1rem;
 }
-footer .credit a{
-    color: #fff;
-    font-weight: 700;
+footer .credit a {
+  color: #fff;
+  font-weight: 700;
 }
 
 /* Agar website responsive di device yang lebih kecil! */
 
 /*Laptop*/
 
-    @media (max-width: 1366px) {
-        html{
-            font-size: 75%;
-        }
-    }
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
 
 /*Tab*/
 
-    @media (max-width: 800px){
-        html{
-            font-size: 62.5%;
-        }
-        body{
-            min-height: 2000px;
-        }
-        #menu{
-            display: inline-block;
-        }
-        .navbar .navbar-nav{
-            position: absolute;
-            top: 100%;
-            right: -100%;
-            background-color: var(--utama);
-            width: 25rem;
-            height: 100vh;
-            border-left: 1px solid #f45d48;
-            transition: 0.4s;
-        }
-        .navbar .navbar-nav.active {
-            right: 0;
-        }
-        .navbar .navbar-nav a{
-            display: block;
-            margin: 1.5rem;
-            padding: 0.5rem;
-            font-size: 2rem;
-        }
-        .navbar .navbar-nav a::after{
-            transform-origin: 0 0;
-        }
-        .navbar .navbar-nav a:hover::after{
-            transform: scaleX(0.2);
-        }
-        .about .row{
-            flex-wrap: wrap;
-        }
-        .about .row .about-img img{
-            height: 24rem;
-            object-fit: cover;
-            object-position: center;
-        }
-        .about .row .content{
-            padding: 0;
-        }
-        .about .row .content p{
-            font-size: 1.6rem;
-        }
-    }
+@media (max-width: 800px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    min-height: 2000px;
+  }
+  #menu {
+    display: inline-block;
+  }
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: var(--utama);
+    width: 25rem;
+    height: 100vh;
+    border-left: 1px solid #f45d48;
+    transition: 0.4s;
+  }
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+  .navbar .navbar-nav a {
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.2);
+  }
+  .about .row {
+    flex-wrap: wrap;
+  }
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .about .row .content {
+    padding: 0;
+  }
+  .about .row .content p {
+    font-size: 1.6rem;
+  }
+}
 
 /*Hp*/
 
-    @media (max-width: 450px){
-        html{
-            font-size: 62.5%;
-        }
-        body{
-            min-height: 2000px;
-        }
-        #menu{
-            display: inline-block;
-        }
-        .navbar .navbar-nav{
-            position: absolute;
-            top: 100%;
-            right: -100%;
-            background-color: var(--utama);
-            width: 20rem;
-            height: 100vh;
-            border-left: 1px solid #f45d48;
-            transition: 0.4s;
-        }
-        .navbar .navbar-nav.active {
-            right: 0;
-        }
-        .navbar .navbar-nav a{
-            display: block;
-            margin: 1.5rem;
-            padding: 0.5rem;
-            font-size: 2rem;
-        }
-        .navbar .navbar-nav a::after{
-            transform-origin: 0 0;
-        }
-        .navbar .navbar-nav a:hover::after{
-            transform: scaleX(0.2);
-        }
-        .about .row{
-            flex-wrap: wrap;
-        }
-        .about .row .about-img img{
-            height: 24rem;
-            object-fit: cover;
-            object-position: center;
-        }
-        .about .row .content{
-            padding: 0;
-        }
-        .about .row .content p{
-            font-size: 1.6rem;
-        }
-    }
+@media (max-width: 450px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    min-height: 2000px;
+  }
+  #menu {
+    display: inline-block;
+  }
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: var(--utama);
+    width: 20rem;
+    height: 100vh;
+    border-left: 1px solid #f45d48;
+    transition: 0.4s;
+  }
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+  .navbar .navbar-nav a {
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.2);
+  }
+  .about .row {
+    flex-wrap: wrap;
+  }
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .about .row .content {
+    padding: 0;
+  }
+  .about .row .content p {
+    font-size: 1.6rem;
+  }
+}
