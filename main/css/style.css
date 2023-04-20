@@ -32,6 +32,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -210,7 +211,7 @@ body {
 
 /* Menu Section */
 
-.menu h2{
+.menu h2, .menu video{
   margin-top: 5rem;
 }
 .menu p,
@@ -291,7 +292,6 @@ footer .credit a {
   font-weight: 700;
 }
 
-/* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
   html {
