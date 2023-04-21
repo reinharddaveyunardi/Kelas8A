@@ -10,6 +10,12 @@
   outline: none;
   border: none;
   text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 img {
   transition: 0.3s;
@@ -98,7 +104,6 @@ body {
 #menu {
   display: none;
 }
-
 /* Hero Section */
 
 .hero {
@@ -210,7 +215,7 @@ body {
   line-height: 1.6;
 }
 
-.bxl-spotify, .bx-instagram{
+.bxl-spotify, .bxl-instagram{
   font-size: 1.9rem;
 }
 
