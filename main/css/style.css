@@ -188,7 +188,7 @@ body {
 }
 
 .about .row .about-img img {
-  width: 350px;
+  width: 100%;
   margin: 2rem;
 }
 
@@ -340,9 +340,9 @@ footer .credit a {
   }
 
   .about .row .about-img img {
-    height: 34rem;
+    height: 25rem;
+    width: 350px;
     object-fit: cover;
-    overflow-x: hidden;
     object-position: center;
   }
 
@@ -388,8 +388,5 @@ footer .credit a {
     width: 20rem;
     height: 100vh;
     transition: 0.3s;
-  }
-  body{
-    overflow-x: hidden;
   }
 }
