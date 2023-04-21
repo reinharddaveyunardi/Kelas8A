@@ -15,7 +15,7 @@ img {
   transition: 0.3s;
 }
 img:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   box-shadow: rgba(255, 137, 6, 0.9) 10px 15px 10px;
 }
 html {
@@ -32,7 +32,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -291,22 +290,16 @@ footer .credit a {
   color: var(--bg);
   font-weight: 700;
 }
-
-/* Laptop */
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
-
-/* Tablet */
 @media (max-width: 758px) {
   html {
     font-size: 62.5%;
   }
-  body{
-    overflow-x: hidden;
-  }
+
   #menu {
     display: inline-block;
   }
@@ -348,6 +341,7 @@ footer .credit a {
   .about .row .about-img img {
     height: 34rem;
     object-fit: cover;
+    overflow-x: hidden;
     object-position: center;
   }
 
@@ -381,8 +375,6 @@ footer .credit a {
   }
 }
 
-/* Mobile Phone */
-
 @media (max-width: 450px) {
   html {
     font-size: 55%;
@@ -395,5 +387,8 @@ footer .credit a {
     width: 20rem;
     height: 100vh;
     transition: 0.3s;
+  }
+  body{
+    overflow-x: hidden;
   }
 }
