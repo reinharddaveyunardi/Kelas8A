@@ -147,10 +147,10 @@ body {
   color: var(--primary);
 }
 
-.hero .content p {
-  font-size: 1.6rem;
-  margin-top: 1rem;
-  line-height: 1.4;
+.hero .content {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+  font-weight: 100;
 }
 
 .hero .content .cta {
