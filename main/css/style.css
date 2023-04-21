@@ -36,6 +36,7 @@ body {
 }
 
 /* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -209,6 +210,10 @@ body {
   line-height: 1.6;
 }
 
+.bxl-spotify{
+  font-size: 1.9rem;
+}
+
 /* Menu Section */
 
 .menu h2, .menu video{
@@ -294,11 +299,13 @@ footer .credit a {
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
+    overflow-x: hidden;
   }
 }
 @media (max-width: 758px) {
   html {
     font-size: 62.5%;
+    overflow-x: hidden;
   }
 
   #menu {
