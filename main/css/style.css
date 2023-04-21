@@ -215,11 +215,10 @@ body {
   line-height: 1.6;
 }
 
-.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxs-badge-check, .bxl-tiktok{
-  font-size: 1.9rem;
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok{
+  font-size: 3rem;
   margin: 0.5rem;
 }
-
 .bx{
   transition: 0.3s;
 }
@@ -229,12 +228,11 @@ body {
 }
 
 .bxl-tiktok{
-  color: var(--bg);
+  color: rgb(0, 0, 0);
 }
 
 .bxl-tiktok:hover{
-  text-shadow: -4px 2px 1px rgba(0, 174, 255, 1);
-  text-shadow: -3px 2px 1px rgba(255, 0, 0, 1);
+  text-shadow: 2px 1px 1px rgba(255, 0, 0, 0.5);
 }
 
 .bxl-spotify{
@@ -250,8 +248,12 @@ body {
 }
 
 
-.bxs-badge-check{
-  color: skyblue;
+.bxl-google{
+  color: #fff;
+}
+
+.bxl-google:hover{
+  color: rgb(81, 190, 234);
 }
 
 /* Menu Section */
