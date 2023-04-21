@@ -15,8 +15,8 @@ img {
   transition: 0.3s;
 }
 img:hover {
-  transform: scale(0.9);
-  box-shadow: rgba(255, 137, 6, 0.9) 10px 15px 10px;
+  transform: scale(1.1);
+  box-shadow: rgba(255, 137, 6, 0.9) 5px 5px 10px;
 }
 html {
   scroll-behavior: smooth;
