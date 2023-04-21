@@ -215,8 +215,43 @@ body {
   line-height: 1.6;
 }
 
-.bxl-spotify, .bxl-instagram{
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxs-badge-check, .bxl-tiktok{
   font-size: 1.9rem;
+  margin: 0.5rem;
+}
+
+.bx{
+  transition: 0.3s;
+}
+
+.bx:hover{
+  transform: scale(1.2);
+}
+
+.bxl-tiktok{
+  color: var(--bg);
+}
+
+.bxl-tiktok:hover{
+  text-shadow: -4px 2px 1px rgba(0, 174, 255, 1);
+  text-shadow: -3px 2px 1px rgba(255, 0, 0, 1);
+}
+
+.bxl-spotify{
+  color: lightgreen;
+}
+
+.bxl-instagram{
+  color: rgb(230, 25, 114);
+}
+
+.bxl-youtube{
+  color: red;
+}
+
+
+.bxs-badge-check{
+  color: skyblue;
 }
 
 /* Menu Section */
