@@ -341,7 +341,6 @@ footer .credit a {
 
   .about .row .about-img img {
     height: 25rem;
-    width: 350px;
     object-fit: cover;
     object-position: center;
   }
@@ -379,14 +378,5 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
-  }
-  .navbar .navbar-nav {
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    background-color: #fff;
-    width: 20rem;
-    height: 100vh;
-    transition: 0.3s;
   }
 }
