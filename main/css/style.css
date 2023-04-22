@@ -17,13 +17,13 @@
   -ms-user-select: none;
   user-select: none;
   -webkit-user-drag: none;
+  cursor: none;
 }
 img {
   transition: 0.3s;
 }
 img:hover {
   transform: scale(1.1);
-  box-shadow: var(--primary) 5px 3px 10px;
 }
 html {
   scroll-behavior: smooth;
@@ -55,7 +55,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 10;
 }
 
 .navbar .navbar-logo {
@@ -78,6 +78,7 @@ body {
 
 .navbar .navbar-nav a:hover {
   color: var(--primary);
+  transform: scale(1.1);
 }
 
 .navbar .navbar-nav a::after {
@@ -111,7 +112,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/img/header-bg.jpg");
+  background-image: url("/main/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -171,7 +172,18 @@ body {
 .contact {
   padding: 8rem 7% 1.4rem;
 }
-
+.about h2{
+  transition: 0.3s;
+}
+.about h2:hover{
+  transform: scale(0.9);
+}
+.about a p{
+  transition: 0.3s;
+}
+.about a p:hover{
+  transform: scale(0.9);
+}
 .about h2,
 .menu h2,
 .contact h2 {
@@ -215,13 +227,23 @@ body {
   font-weight: 100;
   line-height: 1.6;
 }
+.menu .row .menu-card .menu-card-title{
+  transition: 0.3s;
+}
+.menu .row .menu-card .menu-card-title:hover{
+  transform: scale(1.2);
+}
 
-.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok {
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok, .bxl-twitter {
   font-size: 3rem;
   margin: 0.5rem;
 }
 .bx{
   transition: 0.3s;
+}
+
+.bxl-twitter:hover{
+  color: skyblue;
 }
 
 .bx:hover {
@@ -278,6 +300,7 @@ body {
 
 .menu h2, .menu video {
   margin-top: 5rem;
+  transition: 0.3s;
 }
 .menu p,
 .contact p {
@@ -287,7 +310,9 @@ body {
   font-weight: 100;
   line-height: 1.6;
 }
-
+.menu h2:hover{
+  transform: scale(0.9);
+}
 .menu .row {
   flex-wrap: wrap;
   display: flex;
@@ -448,4 +473,16 @@ footer .credit a {
     font-size: 55%;
     overflow-x: hidden;
   }
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
 }
