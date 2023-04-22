@@ -16,13 +16,14 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-user-drag: none;
 }
 img {
   transition: 0.3s;
 }
 img:hover {
   transform: scale(1.1);
-  box-shadow: rgba(255, 137, 6, 0.9) 5px 5px 10px;
+  box-shadow: var(--primary) 5px 3px 10px;
 }
 html {
   scroll-behavior: smooth;
@@ -110,7 +111,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/img/header-bg.jpg");
+  background-image: url("/main/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -215,7 +216,7 @@ body {
   line-height: 1.6;
 }
 
-.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok{
+.bxl-spotify, .bxl-instagram, .bxl-youtube, .bxl-google, .bxl-tiktok {
   font-size: 3rem;
   margin: 0.5rem;
 }
@@ -223,42 +224,59 @@ body {
   transition: 0.3s;
 }
 
-.bx:hover{
+.bx:hover {
   transform: scale(1.2);
 }
 
-.bxl-tiktok{
+.bxl-tiktok {
   color: #fff;
 }
 
-.bxl-tiktok:hover{
-  text-shadow: 2px 1px 1px rgba(255, 0, 0, 0.5);
+.bxl-tiktok:hover {
+  text-shadow: 4px 2px 1px rgba(255, 0, 0, 0.5);
+  color: rgba(135, 206, 235, 0.8);
 }
 
-.bxl-spotify{
+.bxl-spotify {
   color: lightgreen;
 }
 
-.bxl-instagram{
+.bxl-spotify:hover {
+  color: rgba(29, 232, 29, 0.5);
+}
+
+.bxl-instagram {
   color: rgb(230, 25, 114);
 }
 
-.bxl-youtube{
+.bxl-instagram:hover{
+  color: rgb(241, 202, 219);
+}
+
+.bxl-youtube {
   color: red;
 }
 
+.bxl-youtube:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
 
-.bxl-google{
+.bxl-google {
   color: #fff;
 }
 
-.bxl-google:hover{
-  color: rgb(81, 190, 234);
+.bxl-google {
+  color: #fff;
+}
+
+.bxl-google:hover {
+  text-shadow: 3px 1px 1px rgba(255, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 /* Menu Section */
 
-.menu h2, .menu video{
+.menu h2, .menu video {
   margin-top: 5rem;
 }
 .menu p,
