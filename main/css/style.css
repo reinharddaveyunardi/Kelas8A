@@ -189,12 +189,65 @@ body {
 .about .row {
   display: flex;
 }
+.about .riw {
+  display: flex;
+}
+.about .rew {
+  display: flex;
+}
+.about .riw {
+  display: flex;
+}
+.about .rlw {
+  display: flex;
+}
+.about .rzw {
+  display: flex;
+}
+.about .raw {
+  display: flex;
+}
 
 .about .row .about-img {
   flex: 1 1 45rem;
 }
+.about .riw .about-img {
+  flex: 1 1 45rem;
+}
+.about .rew .about-img {
+  flex: 1 1 45rem;
+}
+.about .rlw .about-img {
+  flex: 1 1 45rem;
+}
+.about .rzw .about-img {
+  flex: 1 1 45rem;
+}
+.about .raw .about-img {
+  flex: 1 1 45rem;
+}
 
 .about .row .about-img img {
+  width: 100%;
+  margin: 2rem;
+}
+.about .riw .about-img img {
+  width: 100%;
+  margin: 2rem;
+}
+.about .rew .about-img img {
+  width: 100%;
+  margin: 2rem;
+}
+.about .rlw .about-img img {
+  width: 100%;
+  margin: 2rem;
+}
+.about .rzw .about-img img {
+  width: 100%;
+  margin: 2rem;
+}
+.about .raw .about-img img {
   width: 100%;
   margin: 2rem;
 }
@@ -203,13 +256,83 @@ body {
   flex: 1 1 35rem;
   padding: 0 7rem;
 }
+.about .riw .content {
+  flex: 1 1 35rem;
+  padding: 0 7rem;
+}
+.about .rew .content {
+  flex: 1 1 35rem;
+  padding: 0 7rem;
+}
+.about .rlw .content {
+  flex: 1 1 35rem;
+  padding: 0 7rem;
+}
+.about .rzw .content {
+  flex: 1 1 35rem;
+  padding: 0 7rem;
+}
+.about .raw .content {
+  flex: 1 1 35rem;
+  padding: 0 7rem;
+}
 
 .about .row .content h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+.about .riw .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .rew .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .rlw .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .rzw .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .raw .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
 
 .about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.about .riw .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.about .rew .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.about .rlw .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.about .raw .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.about .rzw .content p {
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
   font-weight: 100;
@@ -276,9 +399,10 @@ body {
 
 /* Menu Section */
 
-.menu h2, .menu video {
+.menu h2, .menu .raw .about-img video {
   margin-top: 5rem;
 }
+
 .menu p,
 .contact p {
   text-align: center;
@@ -295,23 +419,791 @@ body {
   margin-top: 5rem;
   justify-content: center;
 }
+.menu .hdmstr {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .hmrm {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .sh {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .arc {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+/*murid*/
+
+.menu .aby {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .aly {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .ann {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .arch {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .tata {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .cha {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .dp {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .rell {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .fell {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .gee {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .gln {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .jsn {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .jeff {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .jrm {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .ads {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .matt {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .vin {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .ses {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .ghs {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .nichieee {
+  flex-wrap: wrap;
+  display: flex;
+  padding :5rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+
+
+
+/*=====*/
+
+
+
 
 .menu .row .menu-card {
   text-align: center;
   padding-bottom: 4rem;
 }
+.menu .hdmstr .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .hmrm .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .sh .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .arc .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+/*murid*/
+
+.menu .aby .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .aly .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .ann .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .arch .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .tata .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.menu .cha .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .dp .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .rell .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .fell .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .gee .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.menu .gln .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .jsn .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .jef .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .jrm .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .ads .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.menu .matt .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .vin .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .ses .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .ghs .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .nichieee .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.menu .fael .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .rga .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .rey .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .lngit .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .gnwn .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+
+
+/*====*/
+
+
+
 
 .menu .row .menu-card img {
   margin: 90px;
   border-radius: 50%;
   width: 200px;
 }
+.menu .hdmstr .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .hmrm .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .sh .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .arc .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+/*murid*/
+
+.menu .aby .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .aly .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .ann .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .arch .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .tata .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+.menu .cha .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .dp .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .rell .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .fell .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .gee .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .gln .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .jsn .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .jef .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .jrm .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .ads .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+.menu .matt .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .vin .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .ses .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .ghs .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .nichieee .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+.menu .fael .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .rga .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .rey .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .lngit .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+.menu .gnwn .menu-card img {
+  margin: 90px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+
+
+
+/*=====*/
+
+
+
 
 .menu .row .menu-card .menu-card-title {
   margin: 0.1rem;
 }
+.menu .hdmstr .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .hmrm .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .sh .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .arc .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+
+
+/*murid*/
+
+
+.menu .aby .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .aly .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .ann .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .arch .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .tata .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+
+.menu .cha .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .dp .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .rell .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .fell .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .gee .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+
+.menu .gln .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .jsn .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .jef .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .jrm .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .ads .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+
+.menu .matt .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .vin .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .ses .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .ghs .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .nichieee .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+
+.menu .fael .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .rga .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .rey .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .lngit .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+.menu .gnwn .menu-card .menu-card-title {
+  margin: 0.1rem;
+}
+
+
+
+/*====*/
+
+
+
+
+.row{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.riw{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.rew{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.rlw{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.rzw{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.raw{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.hdmstr{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.hmrm{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.sh{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.arc{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+/*murid*/
+
+.aby{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.aly{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.ann{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.arch{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.tata{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.cha{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.dp{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.rell{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.fell{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.gee{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.gln{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.jsn{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.jef{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.jrm{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.ads{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.matt{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.vin{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.ses{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.ghs{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.nichieee{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.fael{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.rga{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.rey{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.lngit{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+.gnwn{
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.active{
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
 
 /* Footer */
+
+
+
+
 
 footer {
   background-color: var(--primary);
