@@ -108,6 +108,37 @@ body {
 #menu {
   display: none;
 }
+
+.navbar .search-form{
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: #fff;
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+.navbar .search-form.active{
+  transform: scale(1);
+}
+.navbar .search-form input{
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: var(--bg);
+  padding: 1rem;
+}
+.navbar .search-form label{
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: var(--bg);
+}
+
 /* Hero Section */
 
 .hero {
@@ -482,6 +513,7 @@ footer .credit a {
   .circle {
     display: none;
   }
+  
 }
 
 .circle {
