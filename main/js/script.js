@@ -1,5 +1,7 @@
+$(document.querySelector).ready();
+
 //Menu
-const navbarNav = document.querySelector('.navbar-nav');
+$(navbarNav = document.querySelector('.navbar-nav'));
 document.querySelector('#menu').
 onclick = (e) => {
     navbarNav.classList.toggle('active');
@@ -10,9 +12,8 @@ onclick = (e) => {
 
 //Search
 
-
-const searchForm = document.querySelector('.search-form');
-const searchBox = document.querySelector('#search-box');
+$(searchForm = document.querySelector('.search-form'));
+$(searchBox = document.querySelector('#search-box'));
 
 document.querySelector('#search-button').onclick = (e) => {
     searchForm.classList.toggle('active');
@@ -21,10 +22,9 @@ document.querySelector('#search-button').onclick = (e) => {
 }
 
 
-//klik luar element
-
-const menu = document.querySelector('#menu');
-const sb = document.querySelector('#search-button');
+//klik di luar element
+$(menu = document.querySelector('#menu'));
+$(sb = document.querySelector('#search-button'));
 
 document.addEventListener('click', function(e){
     if(!menu.contains(e.target) && !navbarNav.contains(e.target)){
@@ -32,11 +32,12 @@ document.addEventListener('click', function(e){
     }
 });
 
-//sb
+//Search box
 
 document.addEventListener('click', function(e){
     if(!sb.contains(e.target) && !searchForm.contains(e.target)){
         searchForm.classList.remove('active');
     }
 });
+
 
