@@ -5,17 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>8A Class</title>
-  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <!-- Font (Start)-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Font (End)-->
+
+  <!-- Icon (Start) -->
   <link rel="icon" type="img/png" href="/img/icon.png">
   <link rel="shortcut icon" type="image/x-icon" href="/img/icon.png"/>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Icon (End)-->
+
+
+  <!-- Other (Start) -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <!-- Other (End) -->
 </head>
 <body>
+
+  <!-- Cursor -->
+
   <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle"></div>
@@ -38,6 +52,8 @@
     <div class="circle"></div>
   </div>
 
+  <!-- Bar Navgiasi -->
+
   <nav class="navbar">
     <a href="#" class="navbar-logo">8A<span>CLASS</span>.</a>
     <div class="navbar-nav">
@@ -54,10 +70,12 @@
       <a href="#" id="search-button"><i data-feather="search"></i></a>
     </div>
     <div class="search-form">
-      <input type="search" name="" id="search-box" placeholder="In Prog.." onkeyup="search()">
+      <input type="search" id="search-box" onkeyup="search()" placeholder="Search..">
       <label for="search-box"><i data-feather="search"></i></label>
     </div>
   </nav>
+
+  <!-- Foto Landing Page -->
 
   <section class="hero" id="home">
     <main class="content">
@@ -67,6 +85,8 @@
     </main>
   </section>
 
+  <!-- Profile Kelas -->
+<section id="all">
   <section id="about" class="about">
     <h2><span>About</span> 8A</h2>
     <div class="row">
@@ -102,6 +122,8 @@
     </div>
   </section>
   
+  <!-- Profil Kepala Sekolah -->
+
   <section id="headmaster" class="menu">
     <h2><span>SMP</span> Headmaster</h2>
     <div class="row">
@@ -123,6 +145,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Profil Walikelas -->
+
   <section id="homeroom" class="menu">
     <h2><span>Our</span> Homeroom</h2>
     <div class="row">
@@ -144,6 +169,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Profil Ketua Kelas -->
+
   <section id="head" class="menu">
     <h2><span>Head</span> Of Class</h2>
     <div class="row">
@@ -181,6 +209,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Profil Murid -->
+
   <section id="students" class="menu">
     <h2><span>8A</span> Students</h2>
     <p>This Is Class 8A Students!
@@ -188,7 +219,7 @@
     <div class="row">
       <div class="menu-card">
         <img src="/img/class/student/abygail.jpg" alt="user" class="menu-card-img">
-        <h3 class="menu-card-title">Abygail Priscilla Siahaan</h3>
+        <h3 class="menu-card-title" name="abygail">Abygail Priscilla Siahaan</h3>
         <p>
           <a href="#">
             <i class='bx bxl-spotify'></i>
@@ -569,6 +600,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Kreasi Kelas -->
+
   <section id="creation" class="about">
     <h2><span>Creation</span> 8A</h2>
     <div class="row">
@@ -609,10 +643,15 @@
     </div>
   </section>
 
-  <section id="other" class="about">
+  <!-- Lain - Lain -->
+
+  <section id="other" class="about" style="display: none;">
     <h2><span>Other</span> Information</h2>
-      <a href="/file/Jadwal Piket Kelas 8A Sem(2).pdf" style="font-size: 1.6rem; text-align: center;"><p>Click here to see class daily picket schedule!</p></a>
+      <a href="/other/Jadwal Piket Kelas 8A Sem(2).pdf" style="font-size: 1.6rem; text-align: center;"><p>Daily picket schedule!</p></a>
   </section>
+</section>
+  <!-- Credit Webkelas -->
+
   <footer>
     <div class="socials">
       <a href="https://www.instagram.com/eixtha_00/"><i class='bx bxl-instagram'></i></a>
@@ -637,8 +676,8 @@
     feather.replace()
   </script>
   <script type="text/javascript">
-    document.addEventListener("contextmenu", function(eak){
-      eak.preventDefault();
+      document.addEventListener("contextmenu", function(konteksMenu){
+      konteksMenu.preventDefault();
     });
   </script>
   <script src="/js/script.js"></script>
