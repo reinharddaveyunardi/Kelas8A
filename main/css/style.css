@@ -272,6 +272,7 @@ body {
   font-size: 1.3rem;
   font-weight: 100;
   line-height: 1.6;
+  text-align: left;
 }
 .menu .row .menu-card .menu-card-title{
   transition: 0.3s;
