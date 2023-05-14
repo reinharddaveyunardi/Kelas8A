@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8A Class</title>
+  
+  <!-- Font (Start)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+  <!-- Font (End)-->
+
+  <!-- Icon (Start) -->
+  <link rel="icon" type="img/png" href="/img/icon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/icon.png"/>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Icon (End)-->
+
+
+  <!-- Other (Start) -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Other (End) -->
+</head>
+<body>
+
+  <!-- Cursor -->
+
+  <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+
+  <!-- Bar Navgiasi -->
+
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">8A<span>CLASS</span>.</a>
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#headmaster">Headmaster</a>
+      <a href="#homeroom">Homeroom</a>
+      <a href="#headOfClass">Head Of Class</a>
+      <a href="#students">Students</a>
+      <a href="#creation">Creation</a>
+    </div>
+    <div class="navbar-extra">
+      <a href="#" id="menu"><i data-feather="menu"></i></a>
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+    </div>
+
+  <!-- Search -->
+    <div class="search-form">
+      <input type="search" id="search-box" onkeyup="search()" placeholder="Student Name ">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+  </nav>
+
+  <!-- Foto Landing Page -->
+
+  <section class="bg" id="home">
+    <main class="content">
+      <h1>8A <span>CLASS</span></h1>
+      <p>Citra Berkat Citra Indah School.</p>
+      <a href="#about" class="btn">More!</a>
+    </main>
+  </section>
+
+  
+<section id="all">
+
+  <!-- Birthday -->
+
+  <section id="special" class="hbd" style="display: none;">
+    <h2><span>Happy</span> Birthday!</h2>
+    <div class="row">
+      <div class="hbd-card">
+        <img src="/img/class/student/nichie.png" alt="Nichie" class="hbd-card-img" id="buka">
+        <h3 class="hbd-card-title">Nichie Isabella Tan</h3>
+        <p class="hbd-card`">Student Of 8A!</p>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profile Kelas -->
+
+  <section id="about" class="about">
+    <h2><span>About</span> 8A</h2>
+    <div class="row">
+      <div class="about-img">
+        <img src="/img/goals.png" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Goals</h3>
+        <p>Class 8a, the class taught by Ms. Maria. Classes that have the goal of "Positive Vibes Class" and want to become "Teacher's Favorite Class" which has been determined on Wednesday, July 27 2022.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="/img/champion.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Always Champion</h3>
+        <p>GO TO CHAMPIONN! 8A CLASS!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/sekolah.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>SCB Jonggol</h3>
+        <p>We Are Part Of SCB Citra Indah Jonggol</p>
+        <a href="https://www.youtube.com/@sekolahcitraberkatcitraind7063"><i class='bx bxl-youtube'></i></a>
+        <a href="https://www.ciputra.com/en/portfolio/sekolah-citra-berkat/"><i class='bx bxl-google'></i>
+        <a href="https://www.instagram.com/scbcitraindah/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.tiktok.com/@scbcitraindah"><i class='bx bxl-tiktok'></i></a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Profil Kepala Sekolah -->
+
+  <section id="headmaster" class="headmaster">
+    <h2><span>SMP</span> Headmaster</h2>
+    <div class="row">
+      <div class="headmaster-card">
+        <img src="/img/class/ms.cath.jpg" alt="Ms. Catharina" class="headmaster-card-img">
+        <h3 class="headmaster-card-title">Ms. Catharina</h3>
+        <p class="headmaster-card`">Headmaster From SMP Citra Berkat Jonggol</p>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/catharina.ns/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profil Walikelas -->
+
+  <section id="homeroom" class="homeroom">
+    <h2><span>Our</span> Homeroom</h2>
+    <div class="row">
+      <div class="homeroom-card">
+        <img src="/img/class/ms.maria.jpg" alt="Ms. Maria" class="homeroom-card-img">
+        <h3 class="homeroom-card-title">Ms. Maria</h3>
+        <p class="homeroom-card`">Homeroom Of 8A Class!</p>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/mooeypa/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profil Ketua Kelas -->
+
+  <section id="headOfClass" class="hoc">
+    <h2><span>Head</span> Of Class</h2>
+    <div class="row">
+      <div class="hoc-card">
+        <img src="/img/class/ketua.jpg" alt="Shandy Gunawan" class="hoc-card-img">
+        <h3 class="hoc-card-title">Shandy Gunawan</h3>
+        <p class="hoc-card`">Head Of 8A Class!</p>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/lyzkanaeru/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="hoc-card">
+        <img src="/img/class/wakil.jpg" alt="Archangel Caitlyn Feliciana" class="hoc-card-img">
+        <h3 class="hoc-card-title">Archangel Caitlyn Feliciana</h3>
+        <p class="hoc-card`">Representative Of 8A Class!</p>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profil Murid -->
+
+  <section id="students" class="student">
+    <h2><span>8A</span> Students</h2>
+    <p>This Is Class 8A Students!
+    </p>
+    <div class="row">
+      <div class="student-card">
+        <img src="/img/class/student/abygail.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title" name="abygail">Abygail Priscilla Siahaan</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/abygailpriscillaa/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/alykha.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Alykha Nur Syahrazzard Quensa Aulia</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/tasia.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Annastasia Gita Surgawi</h3>
+        <p>
+          <a href="https://open.spotify.com/student/31zmhrl3gryosp7vsvnl3zqsureq">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/nanas_.asyaa/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.tiktok.com/@annastasiaaaaaaaaa">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+       <div class="student-card">
+        <img src="/img/class/student/archangel.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Archangel Caitlyn Feliciana</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/archngellcaitlynnn/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/benedikta.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Benedikta Nindya Tiur Dewantari</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/chaya.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Chaya Rahmadhan Keyza Dwipa</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/chayaa_kza/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/daniel_p.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Daniel Purnama </h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/daniel.purnama.1/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/farrel.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Farrel Abrianto</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/rell__z/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/fellice.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Fellice Valery</h3>
+        <p>
+          <a href="https://open.spotify.com/student/6wg3bdojj38odt0wph540owwn">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://twitter.com/TPin43">
+            <i class='bx bxl-twitter'></i>
+          </a>
+          <a href="https://www.instagram.com/_trash.bin43_/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.tiktok.com/@kazu_is.watching">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+          <a href="https://www.youtube.com/channel/UChPFtm38OsisDYAV7MgQLew">
+            <i class='bx bxl-youtube'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/george_b.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">George Nggarang Baralea</h3>
+        <p>
+          <a href="https://www.tiktok.com/@acumalaka_._">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/george._baralea/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/glenn.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Glenn Albert Tjandra</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/jason.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Jason Thio Wijaya</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/jeffray.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Jeffray Naython Londo</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/jeremy.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Jeremy Mauretz</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/kalyca.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Kalyca Caluella Adsella </h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/cleesnou/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/matthew.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Matthew Lionel Raphael Siahaan</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/matthew_lionel_raphael/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.tiktok.com/@therealmatthew28">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/melvin.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Melvin Willis Setia Putra</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/xmlvynn.2/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.tiktok.com/@mlvnnnxbyz">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/moses.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Moses Rury Saputra</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.instagram.com/sescvx/">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/ghaisan.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Muhamad Ghaisan Abrisam</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/nichie.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Nichie Isabella Tan</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/nichieisabelatan/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/rafael.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Raffael Luciano</h3>
+        <p>
+          <a href="https://www.tiktok.com/@elcvy">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/raffael_luciano/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/raga.png" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Raga Akalindra</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/redstonecraft67/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/reinhard.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Reinhard Dave Yunardi</h3>
+        <p>
+          <a href="https://open.spotify.com/playlist/1Ht02fBGKYMYnaEV2tBer2?si=f398cfae04e6415a&pt=72dcda96772efe76d39cc70a36bfe16e">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/itsme.xell/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.tiktok.com/@its.xelll">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+       <img src="/img/class/student/sekar.jpg" alt="student" class="student-card-img">
+        <h3 class="student-card-title">Sekar Biru Langit</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/sekar.langit_/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+      <div class="student-card">
+        <img src="/img/class/student/shandy.jpg" alt="Shandy Gunawan" class="student-card-img">
+        <h3 class="student-card-title">Shandy Gunawan</h3>
+        <p>
+          <a href="#">
+            <i class='bx bxl-spotify'></i>
+          </a>
+          <a href="https://www.instagram.com/lyzkanaeru/">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-tiktok'></i></a>
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kreasi Kelas -->
+
+  <section id="creation" class="creation">
+    <h2><span>Creation</span> 8A</h2>
+    <div class="row">
+      <div class="creation-img">
+        <img src="/img/class/karya-fellice_2.jpeg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Created By:</h3>
+        <h3><a href="https://www.instagram.com/_trash.bin43_/">Fellice Valery</a></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="creation-img">
+        <img src="/img/class/karya-fellice_4.jpeg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Created By</h3>
+        <h3><a href="https://www.instagram.com/_trash.bin43_/">Fellice Valery</a></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="creation-img">
+        <img src="/img/Gedung TK-SD.png" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Created By</h3>
+        <h3><a href="https://www.instagram.com/itsme.xell/">Reinhard Dave Yunardi</a></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="creation-img">
+        <video src="/img/class/animation-raga.mp4" alt="Tentang Kami" muted autoplay loop width="390">
+      </div>
+      <div class="content">
+        <h3>Created By:</h3>
+        <h3><a href="https://www.instagram.com/redstonecraft67/">Raga Akalindra</a></h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lain - Lain -->
+
+  <section id="other" class="Other" style="display: none;">
+    <h2><span>Other</span> Information</h2>
+      <a href="/other/Jadwal Piket Kelas 8A Sem(2).pdf" style="font-size: 1.6rem; text-align: center;"><p>Daily picket schedule!</p></a>
+  </section>
+</section>
+
+
+<div class="popup-container" style="display: none;">
+  <div class="model">
+    <i class=''></i>
+    <h3>Nichie Isabella Tan</h3>
+    <p>Lorem.</p>
+    <button>Close</button>
+  </div>
+</div>
+  <!-- Credit Webkelas -->
+
+  <footer>
+    <div class="socials">
+      <a href="https://www.instagram.com/eixtha_00/"><i class='bx bxl-instagram'></i></a>
+      <a href="https://open.spotify.com/playlist/3L9leGjpyK1g7smnvbhvG6?si=G-hMY-sITvW9nAUTKUeNtQ"><i class='bx bxl-spotify'></i></a>
+      <a href="https://www.youtube.com/@8aclasss"><i class='bx bxl-youtube'></i></a>
+      <a href="https://www.tiktok.com/@eixthacb?is_from_webapp=1&sender_device=pc"><i class="bx bxl-tiktok"></i></a>
+    </div>
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#headmaster">Headmaster</a>
+      <a href="#homeroom">Homeroom</a>
+      <a href="#head">Head Of Class</a>
+      <a href="#students">Students</a>
+      <a href="#creation">Creation</a>
+    </div>
+    <div class="credit">
+      <p>Created by <a href="#home">8A Class</a>. | &copy; 2022.</p>
+    </div>
+  </footer>
+  <script>
+    feather.replace()
+  </script>
+  <script type="text/javascript">
+      document.addEventListener("contextmenu", function(konteksMenu){
+      konteksMenu.preventDefault()
+    });
+  </script>
+  <script src="/js/script.js"></script>
+  <script src="/js/cursor.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
