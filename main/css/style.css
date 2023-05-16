@@ -45,6 +45,9 @@ a{
 a:hover{
   color: var(--utama);
 }
+p{
+  text-align: left;
+}
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
@@ -270,9 +273,7 @@ body {
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
-  font-weight: 100;
-  line-height: 1.6;
-  text-align: left;
+  line-height: 1.5;
 }
 .menu .row .menu-card .menu-card-title{
   transition: 0.3s;
@@ -741,12 +742,23 @@ footer .credit a {
 
   .about .row .content p {
     font-size: 1.6rem;
-    text-align: left;
     
   }
 
   .menu p {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 720px){
+  .bg {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("/img/menu.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
 }
 
@@ -758,6 +770,7 @@ footer .credit a {
   .circle {
     display: none;
   }
+  
   
 }
 
