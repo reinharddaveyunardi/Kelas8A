@@ -20,14 +20,6 @@
   -webkit-user-drag: none;
   cursor: none;
 }
-h2{
-  transition: 0.3s;
-}
-
-h2:hover{
-  transform: scale(1.1);
-}
-
 img {
   transition: 0.5s;
 }
@@ -221,12 +213,6 @@ body {
 .contact {
   padding: 8rem 7% 1.4rem;
 }
-.about h2{
-  transition: 0.3s;
-}
-.about h2:hover{
-  transform: scale(0.9);
-}
 .about a p{
   transition: 0.3s;
 }
@@ -363,9 +349,6 @@ p {
   font-weight: 100;
   line-height: 1.6;
 }
-.hbd h2:hover{
-  transform: scale(0.9);
-}
 .hbd .row {
   flex-wrap: wrap;
   display: flex;
@@ -406,9 +389,6 @@ p {
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
-}
-.homeroom h2:hover{
-  transform: scale(0.9);
 }
 .homeroom .row {
   flex-wrap: wrap;
@@ -452,9 +432,6 @@ p {
   font-weight: 100;
   line-height: 1.6;
 }
-.headmaster h2:hover{
-  transform: scale(0.9);
-}
 .headmaster .row {
   flex-wrap: wrap;
   display: flex;
@@ -496,9 +473,6 @@ p {
   font-weight: 100;
   line-height: 1.6;
 }
-.hoc h2:hover{
-  transform: scale(0.9);
-}
 .hoc .row {
   flex-wrap: wrap;
   display: flex;
@@ -538,9 +512,6 @@ p {
   font-weight: 100;
   line-height: 1.6;
 }
-.student h2:hover{
-  transform: scale(0.9);
-}
 .student .row {
   flex-wrap: wrap;
   display: flex;
@@ -569,12 +540,6 @@ p {
 .creation,
 .menu{
   padding: 8rem 7% 1.4rem;
-}
-.creation h2{
-  transition: 0.3s;
-}
-.creation h2:hover{
-  transform: scale(0.9);
 }
 .creation a p{
   transition: 0.3s;
