@@ -590,7 +590,9 @@ h2 span {
   font-weight: 100;
   line-height: 1.6;
 }
-
+video{
+  width: 100%;
+}
 /* Footer */
 
 footer {
@@ -712,6 +714,9 @@ footer .credit a {
 
   .menu p {
     font-size: 1.2rem;
+  }
+  video{
+   width: 100%; 
   }
 }
 @media (max-width: 720px){
