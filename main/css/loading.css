@@ -28,7 +28,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #61b6b5, #4e9092, #73d2d5);
+  background: #fff;
   height: 100%;
   width: 100%;
   display: flex;
@@ -64,10 +64,16 @@ body {
 }
 
 .logo-name {
-  color: #fff;
-  font-size: 10px;
+  color: #000000;
+  font-size: 12pt;
   letter-spacing: 12px;
   text-transform: uppercase;
   margin-left: 20px;
   font-weight: bolder;
+}
+@media(max-width: 720px){
+  .logo-name{
+    font-size: 10pt;
+    
+  }
 }
