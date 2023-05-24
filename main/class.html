@@ -22,12 +22,22 @@
 
 
   <!-- Other (Start) -->
+  <script src="https://unpkg.com/split-type"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.11/dist/gsap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <!-- Other (End) -->
+
 </head>
 <body>
+
+  <!-- Pop Up -->
+  <div class="popup-follow" id="popup" style="display: none;">
+    <div class="popup">
+      <a href="https://www.instagram.com/eixtha_00/"><img src="img/icon.png"></a>
+      <span>Follow Us On Instagram!</span>
+    </div>
+  </div>
 
   <!-- Cursor -->
 
@@ -70,13 +80,12 @@
       <a href="#" id="menu"><i data-feather="menu"></i></a>
       <a href="#" id="search-button"><i data-feather="search"></i></a>
     </div>
-
   <!-- Bar Navgiasi(End) -->
 
   <!-- Search -->
 
     <div class="search-form">
-      <input type="search" id="search-box" onkeyup="search()" placeholder="Student Name ">
+      <input type="search" id="search-box" onkeyup="search()" placeholder="Student Name.. ">
       <label for="search-box"><i data-feather="search"></i></label>
     </div>
   </nav>
@@ -87,7 +96,7 @@
 
   <section class="bg" id="home">
     <main class="content">
-      <h1>8A <span>CLASS</span></h1>
+      <h1 id="teks">8A <span>CLASS</span></h1>
       <p style="text-align: left;">Citra Berkat Citra Indah School.</p>
       <a href="#about" class="btn">More!</a>
     </main>
@@ -104,8 +113,8 @@
     <h2><span>Happy</span> Birthday!</h2>
     <div class="row">
       <div class="hbd-card">
-        <img src="/img/class/student/nichie.png" alt="Nichie" class="hbd-card-img" id="buka">
-        <h3 class="hbd-card-title">Nichie Isabella Tan</h3>
+        <img src="/img/class/student/.png" alt="" class="hbd-card-img" id="buka">
+        <h3 class="hbd-card-title"></h3>
         <p class="hbd-card`">Student Of 8A!</p>
         <br>
       </div>
@@ -120,16 +129,16 @@
     <h2><span>About</span> 8A</h2>
     <div class="row">
       <div class="about-img">
-        <img src="/img/goals.png" alt="About">
+        <img src="/img/goals.png" alt="Tentang Kami">
       </div>
       <div class="content">
-        <h3>Goals</h3>
-        <p style="text-align: left;">Class 8a, the class taught by Ms. Maria. Classes that have the goal of "Positive Vibes Class" and want to become "Teacher's Favorite Class" which has been determined on Wednesday, July 27 2022.</p>
+        <h3 id="teks">Goals</h3>
+        <p id="teks" style="text-align: left;">Class 8a, the class taught by Ms. Maria. Classes that have the goal of "Positive Vibes Class" and want to become "Teacher's Favorite Class" which has been determined on Wednesday, July 27 2022.</p>
       </div>
     </div>
     <div class="row">
       <div class="about-img">
-        <img src="/img/champion.jpg" alt="About">
+        <img src="/img/champion.jpg" alt="Tentang Kami">
       </div>
       <div class="content">
         <h3>Always Champion</h3>
@@ -138,7 +147,7 @@
     </div>
     <div class="row">
       <div class="about-img">
-        <img src="img/sekolah.jpg" alt="About">
+        <img src="img/sekolah.jpg" alt="Tentang Kami">
       </div>
       <div class="content">
         <h3>SCB Jonggol</h3>
@@ -376,7 +385,7 @@
         </p>
       </div>
       <div class="student-card">
-        <img src="/img/class/student/fellice.jpg" alt="student" class="student-card-img">
+        <img src="/img/class/student/fellice.png" alt="student" class="student-card-img">
         <h3 class="student-card-title">Fellice Valery</h3>
         <p>
           <a href="https://open.spotify.com/student/6wg3bdojj38odt0wph540owwn">
@@ -647,7 +656,7 @@
     <h2><span>Creation</span> 8A</h2>
     <div class="row">
       <div class="creation-img">
-        <img src="/img/class/karya-fellice_2.jpeg" alt="Creation">
+        <img src="/img/class/karya-fellice_2.jpeg" alt="Tentang Kami">
       </div>
       <div class="content">
         <h3>Created By:</h3>
@@ -656,7 +665,7 @@
     </div>
     <div class="row">
       <div class="creation-img">
-        <img src="/img/class/karya-fellice_4.jpeg" alt="Creation">
+        <img src="/img/class/karya-fellice_4.jpeg" alt="Tentang Kami">
       </div>
       <div class="content">
         <h3>Created By</h3>
@@ -665,7 +674,7 @@
     </div>
     <div class="row">
       <div class="creation-img">
-        <img src="/img/Gedung TK-SD.png" alt="Creation">
+        <img src="/img/Gedung TK-SD.png" alt="Tentang Kami">
       </div>
       <div class="content">
         <h3>Created By</h3>
@@ -674,7 +683,7 @@
     </div>
     <div class="row">
       <div class="creation-img">
-        <video src="/img/class/animation-raga.mp4" alt="Creation" muted autoplay loop width="390">
+        <video src="/img/class/animation-raga.mp4" alt="Tentang Kami" muted autoplay loop width="390">
       </div>
       <div class="content">
         <h3>Created By:</h3>
@@ -700,13 +709,70 @@
 <div class="popup-container" style="display: none;">
   <div class="model">
     <i class=''></i>
-    <h3>Nichie Isabella Tan</h3>
-    <p>Lorem.</p>
+    <h3></h3>
+    <p></p>
     <button>Close</button>
   </div>
 </div>
 
   <!-- Credit Webkelas -->
+  <!-- Context Menu -->
+
+  <div class="wrapper">
+    <div class="content">
+      <ul class="menu">
+        <li class="item">
+          <i class="uil uil-eye"></i>
+          <span>Preview</span>
+        </li>
+        <li class="item share">
+          <div>
+            <i class="uil uil-share"></i>
+            <span>Share</span>
+          </div>
+          <i class="uil uil-angle-right"></i>
+          <ul class="share-menu">
+            <li class="item">
+              <i class="uil uil-twitter-alt"></i>
+              <span>Twitter</span>
+            </li>
+            <li class="item">
+              <i class="uil uil-instagram"></i>
+              <span>Instagram</span>
+            </li>
+            <li class="item">
+              <i class="uil uil-dribbble"></i>
+              <span>Dribble</span>
+            </li>
+            <li class="item">
+              <i class="uil uil-telegram-alt"></i>
+              <span>Telegram</span>
+            </li>
+          </ul>
+        </li>
+        <li class="item">
+          <i class="uil uil-link-alt"></i>
+          <span>Get Link</span>
+        </li>
+        <li class="item">
+          <i class="uil uil-edit"></i>
+          <span>Rename</span>
+        </li>
+        <li class="item">
+          <i class="uil uil-trash-alt"></i>
+          <span>Delete</span>
+        </li>
+      </ul>
+      <div class="setting">
+        <li class="item">
+          <i class="uil uil-setting"></i>
+          <span>Settings</span>
+        </li>
+      </div>
+    </div>
+  </div>
+
+  <!-- Context Menu End -->
 
   <footer>
     <div class="socials">
