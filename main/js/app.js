@@ -26,7 +26,6 @@ gsap.fromTo(
     delay: 4.5,
   }
 );
-
 gsap.fromTo(
   ".logo-name",
   {
@@ -40,3 +39,41 @@ gsap.fromTo(
     delay: 0.5,
   }
 );
+
+const konteksMenu = document.querySelector(".wrapper"),
+shareMenu = konteksMenu.querySelector(".share-menu");
+
+window.addEventListener("contextmenu", e => {
+    e.preventDefault();
+    let x = e.offsetX, y = e.offsetY,
+    winWidth = window.innerWidth,
+    winHeight = window.innerHeight,
+    cmWidth = konteksMenu.offsetWidth,
+    cmHeight = konteksMenu.offsetHeight;
+
+    if(x > (winWidth - cmWidth - shareMenu.offsetWidth)) {
+        shareMenu.style.left = "-200px";
+    } else {
+        shareMenu.style.left = "";
+        shareMenu.style.right = "-200px";
+    }
+
+    x = x > winWidth - cmWidth ? winWidth - cmWidth - 5 : x;
+    y = y > winHeight - cmHeight ? winHeight - cmHeight - 5 : y;
+    
+    konteksMenu.style.left = `${x}px`;
+    konteksMenu.style.top = `${y}px`;
+    konteksMenu.style.visibility = "visible";
+});
+
+document.addEventListener("click", () => konteksMenu.style.visibility = "hidden");
+document.addEventListener("scroll", () => konteksMenu.style.visibility = "hidden");
+
+const myText = new SplitType('#teks')
+
+gsap.to('.char', {
+    y: 0,
+    stagger: 0.05,
+    delay: 0.2,
+    duration: .1
+})
