@@ -1,0 +1,83 @@
+* {
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.4rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+header .searchbar input {
+  border-radius: 50px;
+  padding: 12px 1.5rem;
+  font-size: 16px;
+  border: none;
+  color: red;
+  background-color: transparent;
+}
+header .searchbar input[type="text"] {
+  width: 130px;
+  height: 40px;
+  color: red;
+  transition: 0.5s ease;
+  height: 40px;
+  outline: none;
+}
+header .searchbar input[type="text"]:focus {
+  width: 320px;
+  height: 40px;
+  background-color: #fff;
+  color: red;
+}
+header .searchbar input[type="text"]:valid,
+header .searchbar input[type="text"]:focus {
+  width: 320px;
+  height: 40px;
+  background-color: #fff;
+  color: red;
+  font-weight: 700;
+}
+header .searchbar input::-moz-placeholder {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+header .searchbar input::placeholder {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+.searchbar input:focus::placeholder {
+  color: #000;
+}
+::-webkit-scrollbar {
+  background-color: #000;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 99px;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  display: none;
+}
+@media (max-width: 360px) {
+  header .searchbar input[type="text"] {
+    width: 220px;
+    height: 40px;
+  }
+}
