@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Digital Art",
+    "img": "/img/class/karya-fellice_2.jpeg",
+    "author": "Fellice Valery",
+    "instagram": "https://www.instagram.com/_trash.bin43_/"
+  },
+  {
+    "type": "Digital Art",
+    "img": "/img/class/karya-fellice_4.png",
+    "author": "Fellice Valery",
+    "instagram": "https://www.instagram.com/_trash.bin43_/"
+  },
+  {
+    "type": "Illustration",
+    "img": "/img/Gedung TK-SD.png",
+    "author": "Reinhard Dave Yunardi",
+    "instagram": "https://www.instagram.com/itsme.xell/"
+  },
+  {
+    "type": "3D Animation",
+    "video": "/img/class/animation-raga.mp4",
+    "author": "Raga Akalindra",
+    "instagram": "https://www.instagram.com/redstonecraft67/"
+  }
+]

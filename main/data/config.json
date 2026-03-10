@@ -1,0 +1,42 @@
+{
+  "headmaster": {
+    "name": "Ms. Catharina",
+    "title": "Headmaster · SMP Citra Berkat Jonggol",
+    "img": "/img/class/ms.cath.jpg",
+    "instagram": "https://www.instagram.com/catharina.ns/"
+  },
+  "homeroom": {
+    "name": "Ms. Maria",
+    "title": "Homeroom Teacher · Mathematics",
+    "img": "/img/class/ms.maria.jpg",
+    "instagram": "https://instagram.com/meyputriastari",
+    "handle": "@meyputriastari"
+  },
+  "headOfClass": [
+    {
+      "name": "Shandy Gunawan",
+      "role": "Chairman",
+      "img": "/img/class/ketua.jpg",
+      "instagram": "https://www.instagram.com/lyzkanaeru/",
+      "handle": "@lyzkanaeru"
+    },
+    {
+      "name": "Archangel Caitlyn Feliciana",
+      "role": "Vice-Chairman",
+      "img": "/img/class/wakil.jpg",
+      "instagram": "https://www.instagram.com/archngellcaitlynnn/",
+      "handle": "@archngellcaitlynnn"
+    }
+  ],
+  "socials": {
+    "instagram": "https://www.instagram.com/eixtha_00/",
+    "youtube": "https://www.youtube.com/@8aclasss",
+    "tiktok": "https://www.tiktok.com/@eixthacb",
+    "spotify": "https://open.spotify.com/playlist/3L9leGjpyK1g7smnvbhvG6"
+  },
+  "stats": {
+    "students": 25,
+    "teachers": 22,
+    "year": "2022–2023"
+  }
+}
